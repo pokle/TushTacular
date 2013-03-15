@@ -1,5 +1,3 @@
-# Tushtacular
-
 This is a demo of how to test your javascript web apps using testacular - even of it hasn't been written with AngularJS.
 
 
