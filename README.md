@@ -1,19 +1,20 @@
-This is a demo of how to test your javascript web apps using testacular - even of it hasn't been written with AngularJS.
+This is a demonstrator (or even a seed project) that shows you how to test your non-AngularJS javascript apps using Karma (formerly Testacular). 
 
 
 ## First install some dependencies if you don't have them:
 * Nodejs [http://nodejs.org](http://nodejs.org)
-* testacular [http://testacular.github.com](http://testacular.github.com)
+* Karma [http://karma-runner.github.io/](http://karma-runner.github.io/)
+
+        npm install -g karma   # Install Karma globally
 
 ## Grab the TushTacular demo:
 
     git clone https://github.com/pokle/TushTacular.git
     cd TushTacular
 
-
 ## Run it!
 
-	testacular start
+	karma start
 	
 You should see Chrome start up and run the the tests defined in test/sample.js
 
