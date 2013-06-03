@@ -7,8 +7,8 @@ This is a demo of how to test your javascript web apps using testacular - even o
 
 ## Grab the TushTacular demo:
 
-    git clone https://@bitbucket.org/pokle/tushtacular.git
-    cd tushtacular
+    git clone https://github.com/pokle/TushTacular.git
+    cd TushTacular
 
 
 ## Run it!
