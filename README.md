@@ -1,3 +1,8 @@
+# TushTacular
+
+[![Circle CI Build Status](https://circleci.com/gh/pokle/TushTacular.png?circle-token=6b4b88a0d80e58c518f0cbdd364e5e279f8c036b)](https://circleci.com/gh/pokle/TushTacular)
+
+
 This is a demonstrator (or even a seed project) that shows you how to test your non-AngularJS javascript apps using Karma (formerly Testacular). 
 
 
