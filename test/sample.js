@@ -13,9 +13,10 @@ TushTacular.describe('dynamic search', function(browser) {
         browser.on('/', function() {
             
             browser.input('#nameInput').enter('Salty')
+            browser.button('#searchButton').click()
 
             browser.waitsFor("result message to show up", function(){ 
-                return browser.find('span.message').text() === '1 result for Salty Dog Cellars found nationally'
+                return browser.find('span.message').text() === '1 result for Salty found in Springwood, QLD or surrounding locations'
             })
 
         })

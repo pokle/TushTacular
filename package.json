@@ -1,0 +1,28 @@
+{
+  "name": "TushTacular",
+  "version": "0.0.0",
+  "description": "This is a demonstrator (or even a seed project) that shows you how to test your non-AngularJS javascript apps using Karma (formerly Testacular).",
+  "dependencies": [
+    "karma"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pokle/TushTacular"
+  },
+  "keywords": [
+    "javascript",
+    "test",
+    "angularjs"
+  ],
+  "author": "Tushar Pokle",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/pokle/TushTacular/issues"
+  }
+}
