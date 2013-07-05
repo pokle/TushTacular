@@ -13,6 +13,7 @@ TushTacular.describe('dynamic search', function(browser) {
         browser.on('/', function() {
             
             browser.input('#nameInput').enter('Salty')
+            browser.input('#locationInput').enter('Springwood, QLD')
             browser.button('#searchButton').click()
 
             browser.waitsFor("result message to show up", function(){ 
